@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hometask 1</title>
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+	<div class="store-container" id="storeContainer">
+		<!-- <div class="product-group">
+			<span class="product-group-name">Фрукты: <span class="delete-value">&nbsp;</span></span>
+			<span class="product">Яблоки <span class="delete-value">&nbsp;</span></span>
+			<span class="product">Бананы <span class="delete-value">&nbsp;</span></span>
+			<span class="product">Апельсины <span class="delete-value">&nbsp;</span></span>
+			<span class="add-product" title="Добавить продукт">&nbsp;</span>
+		</div>
+
+		<div class="product-group">
+			<span class="product-group-name">Овощи: <span class="delete-value">&nbsp;</span></span>
+			<span class="product">Помидоры <span class="delete-value">&nbsp;</span></span>
+			<span class="product">Огурцы <span class="delete-value">&nbsp;</span></span>
+			<span class="add-product" title="Добавить продукт">&nbsp;</span>
+		</div>
+
+		<div class="product-group">
+			<span class="product-group-name">Мясо: <span class="delete-value">&nbsp;</span></span>
+			<span class="product">Свинина <span class="delete-value">&nbsp;</span></span>
+			<span class="product">Курица <span class="delete-value">&nbsp;</span></span>
+			<span class="product">Говядина <span class="delete-value">&nbsp;</span></span>
+			<span class="add-product" title="Добавить продукт">&nbsp;</span>
+		</div>
+-->
+	</div>
+	<button class="add-group" id="addGroup">Добавить группу</button>
+
+	<script type="text/javascript">			
+
+			/*
+			Инициализация:
+			1. циклом создавать для каждого [key] структуру class="product-group" DONE
+			2. на каждую группу отдельную функцию DONE
+			3. на каждый продукт - отдельную DONE
+			4. при этом на каждый class="delete-value" вешать addEventListener (getElementsByClassName) 
+
+			*/
+
+			/*
+			По клику:
+			1. взять родителя elem.parentNode
+			2. у него получить textContent
+			3. обрезать лишние пробелы
+			4. найти такой эл-т в массиве и удалить
+			5. убрать eventListner
+			6. если это [key], удалить всю запись в объекте (key и массив)
+			7. удалить его из DOM
+			*/
+
+			/*
+			Создание продукта:
+			1. добавить эл-т в соотв. массив
+			2. добавить элемент в соответствующий ряд parentElem.insertBefore(newElem, target)
+			*/
+
+			/*
+			Создание группы:
+			1. добавить [key] в объект Store DONE
+			2. добавить группу в DOM innerHTML для storeContainer DONE
+			3. создать кнопку add-product DONE
+			*/
+
+	</script>
+	<script src="script.js"></script>
+</body>
+</html>

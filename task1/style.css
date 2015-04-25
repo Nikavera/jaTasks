@@ -1,0 +1,44 @@
+.store-container span {
+	position: relative;
+	margin-left: 5px;
+	padding-right: 19px;
+}
+
+.product-group-name {
+	font-weight: bold;
+}
+
+.product {
+
+}
+
+.product-group {
+	margin-bottom: 15px;
+}
+
+.add-product {
+	background: url('add.png') no-repeat;
+	border: 0;
+	cursor: pointer;
+	margin-left: 15px;
+	height: 17px;
+	width: 15px;
+	display: inline-block;
+	
+}
+
+
+span.delete-value {
+	background: url('delete.png') no-repeat;
+	padding: 0 6px;
+	height: 17px;
+	position: absolute;
+	right: 3px;
+	top: -7px;
+	display: none;
+	cursor: pointer;
+}
+
+.product-group-name:hover span.delete-value, .product:hover span.delete-value {display: inline;}
+
+.add-group {margin-top: 10px;}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hometask 2</title>
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body class="calculator">
+	<h1>Простейший калькулятор</h1>
+	
+	<div class="operands-container clearfix">
+		<input type="text" id="firstOperand" class="operand" />
+		<input type="text" id="secondOperand" class="operand" />
+	</div>
+	<div class="operators-container clearfix" id="allOperators">
+		<button class="operator" id="plus" data-action="plus"><img src="plus.jpg" width="37" height="37" /></button>
+		<button class="operator" id="minus" data-action="minus"><img src="minus.jpg" width="37" height="37" /></button>
+		<button class="operator" id="multiply" data-action="multiply"><img src="multiply.jpg" width="37" height="37" /></button>
+		<button class="operator" id="divide" data-action="divide"><img src="divide.jpg" width="37" height="37" /></button>
+	</div>
+	<h2>Результат:</h2>
+	<div class="result" id="result"></div>
+	
+	<script src="script.js"></script>
+</body>
+</html>
